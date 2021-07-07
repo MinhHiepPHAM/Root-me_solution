@@ -5,15 +5,15 @@
 # Challenge
 
 - App-script:
-	1. [Bash system 1](link)
-	2. [Bash system 2](link)
-	3. [Bash cron](link)
-	4. [Bash unquote injection](link)
-	5. [Sudo week configuration](link)
+	1. [Bash system 1](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-script/Bash_system1.c)
+	2. [Bash system 2](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-script/Bash_system2.c)
+	3. [Bash cron](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-script/bash_cron.c)
+	4. [Bash unquote injection](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-script/bash_unquote_injection.c)
+	5. [Sudo week configuration](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-script/sudo_week_configuration.c)
 
 - App-system:
-	1. [stack buffer overflow 1](link)
-        2. [stack buffer overflow 2](link)
+	1. [stack buffer overflow 1](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-system/stack_buffer_overflow_1.c)
+        2. [stack buffer overflow 2](https://github.com/MinhHiepPHAM/Root-me_solution/blob/master/challenge/App-system/stack_buffer_overflow_2.c)
 
 
 
